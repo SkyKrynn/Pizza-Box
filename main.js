@@ -202,8 +202,6 @@ const MAX_BONE_COUNT = 20;
 
 function createSceneProgram() {
 
-    throw new Error("Unnecessary error: let's not make a scene")
-
     return createProgram({
         vertex: `
             #define N_BONES ${MAX_BONE_COUNT}
